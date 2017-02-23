@@ -22,7 +22,7 @@ def get_resources(event, context):
     #print(json.dumps(flows, indent=4))
 
     results = []
-    results.append(list(format_resources(devices)))
+    #results.append(list(format_resources(devices)))
     results.append(list(format_flows(flows)))
     print "-------------results-------------"
     print (json.dumps(results, indent=4))
