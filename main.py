@@ -150,6 +150,6 @@ def get_location_details(location_id):
     except:
         pass
 
-if __name__ == '__main__':
-    get_resources(1,1)
+#if __name__ == '__main__':
+#    get_resources(1,1)
     
